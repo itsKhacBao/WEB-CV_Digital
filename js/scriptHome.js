@@ -9,5 +9,5 @@ pixelTeamImage.addEventListener('animationend', () => {
 document.querySelector('.start-button').addEventListener('click', () => {
     const beepSound = document.getElementById('beep-sound');
     beepSound.play();
-    window.location.href = './html/main.html'; // Điều hướng đến main.html
+    window.location.href = '/WEB-CV_Digital/html/main.html'; // Điều hướng đến main.html
 });
