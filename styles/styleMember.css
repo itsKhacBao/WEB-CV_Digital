@@ -43,7 +43,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../assets/images/GifPixelArt/bgPixelTim.gif);
+    background: url(/WEB-CV_Digital/assets/images/GifPixelArt/bgPixelTim.gif);
     -webkit-font-smoothing: none;
     -moz-osx-font-smoothing: none;
     overflow: hidden;
