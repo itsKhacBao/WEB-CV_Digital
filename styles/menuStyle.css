@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'VT323', monospace; /* Áp dụng font VT323 */
     /* background-color: #008080; Màu nền xanh đặc trưng của Windows XP */
-    background: url('../assets/images/imgHome/bgxanh.gif') no-repeat center;
+    background: url('/WEB-CV_Digital/assets/images/imgHome/bgxanh.gif') no-repeat center;
     background-size: cover;
     display: flex;
     flex-direction: column; /* Đảm bảo body là flex column để taskbar ở dưới */
@@ -14,7 +14,7 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow: hidden; /* Ngăn cuộn trang tổng thể */
-    cursor: url('../assets/cursor/cursorWinXP.cur');
+    cursor: url('/WEB-CV_Digital/assets/cursor/cursorWinXP.cur');
     -webkit-font-smoothing: none; /* Hiệu ứng pixelated cho văn bản trên WebKit */
     image-rendering: pixelated; /* Đảm bảo hình ảnh được render dưới dạng pixelated */
 }
