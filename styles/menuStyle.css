@@ -383,6 +383,10 @@ body {
     gap: 20px;
 }
 
+.info-item {
+    
+}
+
 .project-item img {
     width: 60%;
     height: auto;
