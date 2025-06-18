@@ -51,7 +51,7 @@ async function showMemberDetail(memberId) {
             break;
         case '3':
             introContent = `🎤 Tiktoker Quyến Rũ\n“Chỉ 3 giây là đủ khiến bạn phải replay.”\nMỗi bước đi như một đoạn clip triệu view. Cô ấy sở hữu vẻ đẹp pixel động, hiệu ứng chuyển cảnh mượt như lụa và giọng nói mê hoặc như nhạc nền 8-bit cổ điển. Mọi ánh nhìn đều dừng lại khi cô ấy xuất hiện.`;
-            moreButton.href = "/WEB-CV_Digital/html/BaoHanPage.html"; // Liên kết cho member 3
+            moreButton.href = "/WEB-CV_Digital/html/baoHanPage.html"; // Liên kết cho member 3
             break;
         case '4':
             introContent = `🌸 Nàng Thơ Yêu Kiều\n“Trong thế giới pixel gắt gao, tôi là điểm lặng dịu dàng.”\nMột luồng gió mềm mại giữa sa trường hỗn loạn. Nàng mang lại sự cân bằng cho cả đội với năng lượng chữa lành – cả tâm hồn lẫn giao diện. Đừng để vẻ ngoài đánh lừa: nàng thơ cũng có những chiêu nghệ thuật chí mạng.`;
