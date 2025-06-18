@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    cursor: url('../assets/cursor/cursorWinXP.cur'), auto; /* Cursor kiểu Win XP */
+    cursor: url('/WEB-CV_Digital/assets/cursor/cursorWinXP.cur'), auto; /* Cursor kiểu Win XP */
     user-select: none; /* Ngăn chặn chọn văn bản */
 }
 
@@ -36,7 +36,7 @@ body {
 .desktop {
     width: 100vw;
     height: 100vh;
-    background-image: url('../assets/images/imgHome/backGroundPixelHan.gif'); /* Thay thế bằng hình nền của bạn */
+    background-image: url('/WEB-CV_Digital/assets/images/imgHome/backGroundPixelHan.gif'); /* Thay thế bằng hình nền của bạn */
     background-size: cover;
     background-position: center;
     position: relative;
