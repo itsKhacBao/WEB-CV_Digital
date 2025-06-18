@@ -121,8 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const desktopWidth = desktopArea.offsetWidth;
         const desktopHeight = desktopArea.offsetHeight;
 
-        const defaultWidth = Math.min(1200, desktopWidth * 0.95);
-        const defaultHeight = Math.min(800, desktopHeight * 0.9);
+        const defaultWidth = Math.min(1200, desktopWidth * 0.9);
+        const defaultHeight = Math.min(800, desktopHeight * 0.8);
 
         const randomX = Math.random() * (desktopWidth - defaultWidth - 100) + 50;
         const randomY = Math.random() * (desktopHeight - defaultHeight - 100) + 50;
@@ -292,8 +292,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 mainAppWindow.classList.add('active');
                 bringWindowToFront(mainAppWindow);
                 // Đảm bảo main app window không bị co lại sau maximize/minimize
-                mainAppWindow.style.width = '1400px'; // Kích thước cố định cho cửa sổ chính
-                mainAppWindow.style.height = '1000px';
+                mainAppWindow.style.width = '1200px'; // Kích thước cố định cho cửa sổ chính
+                mainAppWindow.style.height = '800px';
                 mainAppWindow.style.top = '50%';
                 mainAppWindow.style.left = '50%';
                 mainAppWindow.style.transform = 'translate(-50%, -50%)'; // Main app dùng transform
@@ -309,8 +309,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainAppWindow = document.getElementById('main-app-window');
     if (mainAppWindow) {
         // Đặt vị trí và kích thước ban đầu cho cửa sổ chính (căn giữa)
-        mainAppWindow.style.width = '1400px'; // Kích thước cố định cho cửa sổ chính
-        mainAppWindow.style.height = '1000px';
+        mainAppWindow.style.width = '1200px'; // Kích thước cố định cho cửa sổ chính
+        mainAppWindow.style.height = '800px';
         mainAppWindow.style.top = '50%';
         mainAppWindow.style.left = '50%';
         mainAppWindow.style.transform = 'translate(-50%, -50%)'; // Dùng transform để căn giữa
