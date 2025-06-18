@@ -15,7 +15,7 @@ async function loadMemberData(memberId) {
         return {
             name: "Unknown",
             nickname: "Unknown",
-            gif: "../assets/images/GifPixelArt/BaoPixel.gif"
+            gif: "/WEB-CV_Digital/assets/images/GifPixelArt/BaoPixel.gif"
         };
     }
 }
@@ -31,7 +31,7 @@ async function showMemberDetail(memberId) {
     const moreButton = modalSection.querySelector('.more-button');
 
     // Cập nhật GIF và thông tin
-    gifDisplay.src = memberData.gif || "../assets/images/GifPixelArt/BaoPixel.gif";
+    gifDisplay.src = memberData.gif || "/WEB-CV_Digital/assets/images/GifPixelArt/BaoPixel.gif";
     gifDisplay.style.display = 'block';
     gifName.textContent = memberData.name || "Unknown";
     gifNickname.textContent = memberData.nickname || "Unknown";
@@ -43,23 +43,23 @@ async function showMemberDetail(memberId) {
     switch (memberId) {
         case '1':
             introContent = `🧠 Leader Kiêu Kì\n“Not cần hét lớn để dẫn đầu – chỉ cần toả sáng đúng lúc.”\nNgười cầm trịch đội hình, luôn xuất hiện với phong thái tự tin và ánh mắt lạnh lùng. Kiểm soát chiến trường bằng sự kiêu hãnh và logic sắc bén. Một pixel cũng không lệch khỏi kế hoạch của cậu ấy.`;
-            moreButton.href = "../html/KhacBaoPage.html"; // Liên kết cho member 1
+            moreButton.href = "/WEB-CV_Digital/html/KhacBaoPage.html"; // Liên kết cho member 1
             break;
         case '2':
             introContent = `🎮 Gamer Háo Thắng\n“Thua không nằm trong từ điển của tôi. Reset lại!”\nTay chơi thần sầu với tốc độ phản xạ đáng kinh ngạc. Cậu ta không chỉ chơi game – cậu sống trong đó. Đừng thách cậu ấy nếu bạn không muốn bị combo pixel ngay từ giây đầu.`;
-            moreButton.href = "../html/NgocThiPage.html "; // Liên kết cho member 2
+            moreButton.href = "/WEB-CV_Digital/html/NgocThiPage.html "; // Liên kết cho member 2
             break;
         case '3':
             introContent = `🎤 Tiktoker Quyến Rũ\n“Chỉ 3 giây là đủ khiến bạn phải replay.”\nMỗi bước đi như một đoạn clip triệu view. Cô ấy sở hữu vẻ đẹp pixel động, hiệu ứng chuyển cảnh mượt như lụa và giọng nói mê hoặc như nhạc nền 8-bit cổ điển. Mọi ánh nhìn đều dừng lại khi cô ấy xuất hiện.`;
-            moreButton.href = "../html/BaoHanPage.html"; // Liên kết cho member 3
+            moreButton.href = "/WEB-CV_Digital/html/BaoHanPage.html"; // Liên kết cho member 3
             break;
         case '4':
             introContent = `🌸 Nàng Thơ Yêu Kiều\n“Trong thế giới pixel gắt gao, tôi là điểm lặng dịu dàng.”\nMột luồng gió mềm mại giữa sa trường hỗn loạn. Nàng mang lại sự cân bằng cho cả đội với năng lượng chữa lành – cả tâm hồn lẫn giao diện. Đừng để vẻ ngoài đánh lừa: nàng thơ cũng có những chiêu nghệ thuật chí mạng.`;
-            moreButton.href = "../html/MinhThuPage.html"; // Liên kết cho member 4
+            moreButton.href = "/WEB-CV_Digital/html/MinhThuPage.html"; // Liên kết cho member 4
             break;
         case '5':
             introContent = `💻 Developer Thần Tốc\n“Tôi không fix bug. Tôi hủy diệt bug.”\nKẻ thao túng mã nguồn sau hậu trường. Đôi tay gõ nhanh hơn cả tốc độ khung hình, dựng nên cả thế giới chỉ bằng vài dòng lệnh. Dù là code hay pixel, mọi thứ đều phải chạy mượt dưới tay anh ấy.`;
-            moreButton.href = "../html/VanPhongPage.html"; // Liên kết cho member 5
+            moreButton.href = "/WEB-CV_Digital/html/VanPhongPage.html"; // Liên kết cho member 5
             break;
         default:
             introContent = `Không có thông tin cho thành viên này.`;
