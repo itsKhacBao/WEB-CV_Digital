@@ -30,7 +30,7 @@
 
 body {
     line-height: 1.6;
-    background: url('../assets/images/imgPhongPage/back4.gif');
+    background: url('/WEB-CV_Digital/assets/images/imgPhongPage/back4.gif');
     background-size: cover;
     background-attachment: fixed; /* Giữ nền cố định khi cuộn */
     color: var(--text-color);
@@ -64,7 +64,7 @@ a:hover {
 /* --- Header Section --- */
 .site-header {
     position: relative;
-    background-image: url('../assets/images/imgPhongPage/backgrounduth.png');
+    background-image: url('/WEB-CV_Digital/assets/images/imgPhongPage/backgrounduth.png');
     background-size: cover;
     background-position: center;
     color: white;
