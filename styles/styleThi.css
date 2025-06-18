@@ -1,12 +1,12 @@
 /*Import font chữ*/
 @font-face {
     font-family: 'Myfont';
-    src: url('../assets/fonts/fontThiPage/H2.ttf') format('truetype');
+    src: url('/WEB-CV_Digital/assets/fonts/fontThiPage/H2.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Myfonttwo';
-    src: url('../assets/fonts/fontThiPage/H1.otf') format('truetype');
+    src: url('/WEB-CV_Digital/assets/fonts/fontThiPage/H1.otf') format('truetype');
 }
 html {
     scroll-behavior: smooth;
@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-image: url('../assets/images/imgThiPage/background.gif');
+    background-image: url('/WEB-CV_Digital/assets/images/imgThiPage/background.gif');
     background-size: contain;
     width: 100%;
 }
